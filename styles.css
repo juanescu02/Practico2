@@ -4,7 +4,7 @@
     color: #ec0404;
 }
 
-body { box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #00ffc11f;
+body { 
     margin: 0;
     background-color: #08910f;
 }
@@ -19,8 +19,8 @@ body { box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #00ffc11f;
 .calculadora {
     display: grid;
     grid-template-columns: repeat(4, 75px);
-    grid-template-rows: 160px repeat(5, 75px);
-    background-color: #00916e;
+    grid-template-rows: 150px repeat(5, 75px);
+    background-color: #915e00;
     padding: 15px;
     border-radius: 32px;
    
@@ -38,7 +38,7 @@ button {
 }
 
 button:active {
-    background-color: #006f54;
+    background-color: #2c2492;
 }
 
 button:focus {
